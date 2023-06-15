@@ -44,12 +44,16 @@ protected:
 	// Player has lightPunched
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
 	bool lPunched;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
 	bool hPunched;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
 	bool lKick;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacks")
 	bool hKick;
+
 	// The Amount of health a character has.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float playerHealth;
